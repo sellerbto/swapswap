@@ -1,34 +1,5 @@
-+-------------------------------------+
-|           SwapSwap System           |
-+-------------------------------------+
+<img width="966" alt="image" src="https://github.com/user-attachments/assets/6adba38a-0075-446e-a475-f56b477b7a6a" />
 
-+-------------------------------+       +---------------------------+
-|    MostProfitableSwap.sol     |<----->|   IMostProfitableSwap     |
-|   (Main Contract)             |       |   (Interface)             |
-+---------|---------------------+       +---------------------------+
-          |
-          | manages
-          v
- +--------+---------+         +---------------------------+
- |  DEX Adapters    |<------->|       IDEXAdapter         |
- |  Registry        |         |       (Interface)         |
- +--------+---------+         +---------------------------+
-          |
-          | contains
-          v
- +--------+--------------------+
- |                             |
- |                             |
-+-------------+   +-----------+
-|UniswapV3    |   |UniswapV2  |
-|Adapter      |   |Adapter    |
-+-------------+   +-----------+
-      |                 |
-      v                 v
-+-------------+   +-----------+
-|UniswapV3    |   |UniswapV2  |
-|Protocol     |   |Protocol   |
-+-------------+   +-----------+
 
 Flow of Operation:
 1. User calls swapExactInput() on MostProfitableSwap
