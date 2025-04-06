@@ -1,4 +1,4 @@
-<img width="966" alt="image" src="https://github.com/user-attachments/assets/6adba38a-0075-446e-a475-f56b477b7a6a" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/6adba38a-0075-446e-a475-f56b477b7a6a" />
 
 
 Flow of Operation:
